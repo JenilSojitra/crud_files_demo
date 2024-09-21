@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const app = express();
-const dataFile = path.join(__dirname, 'data.json');
+const dataFile = path.join(__dirname, 'public', 'data.json');
 
 app.use(express.json());
 
